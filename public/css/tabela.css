@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    transition: margin-left 0.3s; /* Adicione uma transição para a margem esquerda */
+}
+
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+thead th, tbody td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}

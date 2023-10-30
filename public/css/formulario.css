@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section,
+.right-section,
+.bottom-section {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.left-section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+form fieldset {
+    border: 1px solid #ccc;
+    padding-right: 30px;
+    margin-bottom: 23px;
+    border-radius: 15px;
+    height: 100%;
+    margin-right:50px ;
+}
+
+legend {
+    font-weight:bold;
+}
+
+.form-group {
+    margin-bottom: auto;
+}
+
+label {
+    display: block;
+    font-weight:300, lighter;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+.contatofield{
+    margin-top: auto;
+    padding-bottom: 100px;
+}
+.dadosfield{
+    margin-top:auto;
+    padding-bottom: 50px;
+}
+#buscarEndereco{
+    margin-left:237px;
+    margin-top: 10px;
+}
+.enviar{
+    position:fixed;
+    margin-left: 400px;
+    margin-top: 450px;
+}
+.resultado{
+    font-weight: bold;
+}
